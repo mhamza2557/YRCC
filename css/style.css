@@ -5,3 +5,56 @@
 .hvac-repair-system-points {
     display: flex;
 }
+
+.services,
+.card {
+    background: url('../images/texture2.jpg');
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #0781ca !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #0781ca !important;
+    color: #ffffff !important;
+}
+
+a {
+    color: #ffffff !important;
+}
+
+#top {
+    background-color: #0470B8;
+    color: #ffffff;
+}
+
+.ball {
+    padding: 2px;
+    border: 1px solid black;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border: 2px solid lightblue;
+    }
+}
+
+@media (max-width: 576px) {
+    #top>.container>.row>div:nth-child(2) {
+        text-align: center !important;
+    }
+    #top>.container>.row>div:nth-child(1)>h1 {
+        font-size: 25px !important;
+    }
+    .card-group>.card {
+        margin-bottom: 0px !important;
+    }
+}
