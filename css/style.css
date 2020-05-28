@@ -57,4 +57,7 @@ a {
     .card-group>.card {
         margin-bottom: 0px !important;
     }
+    .form-small {
+        display: grid !important;
+    }
 }
