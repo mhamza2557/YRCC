@@ -6,10 +6,13 @@
     display: flex;
 }
 
-.services,
-.card {
+.services {
     background: url('../images/texture2.jpg');
     color: #ffffff;
+}
+
+.card {
+    background: url('../images/texture3.jpg');
 }
 
 .navbar {
