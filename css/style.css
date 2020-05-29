@@ -64,3 +64,9 @@ a {
         display: grid !important;
     }
 }
+
+.products {
+    background: url(../images/texture2.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
